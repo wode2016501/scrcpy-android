@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">scrcpy</string>
+
+    <string name="label_server_ip">Remote Device IP address</string>
+    <string name="label_video_resolution">Resolution</string>
+    <string name="label_video_bitrate">Bitrate</string>
+    <string name="label_x">x</string>
+    <string name="action_start">Start</string>
+    <string name="appswitch_button">=</string>
+    <string name="home_button">o</string>
+    <string name="back_button">v</string>
+    <string name="switch0">无控制（如果不需要远程设备控制，请选中此项）</string>
+    <string name="switch1">导航栏（如果远程设备没有屏幕导航栏，请选中此项）</string>
+
+
+    <string-array name="options_resolution_keys">
+        <item>3840x2160</item>
+        <item>3168x1440</item>
+        <item>2376x1080</item>
+        <item>1920x1080</item>
+    </string-array>
+
+    <string-array name="options_resolution_values">
+        <item>3840,2160</item>
+        <item>3168,1440</item>
+        <item>2376,1080</item>
+        <item>1920,1080</item>
+    </string-array>
+
+    <string-array name="options_bitrate_keys">
+        <item>60 Mbps</item>
+        <item>40 Mbps</item>
+        <item>20 Mbps</item>
+        <item>10 Mbps</item>
+    </string-array>
+
+    <integer-array name="options_bitrate_values">
+        <item>61440000</item>
+        <item>40960000</item>
+        <item>20480000</item>
+        <item>10240000</item>
+    </integer-array>
+
+</resources>
+
+
