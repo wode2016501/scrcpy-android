@@ -86,7 +86,7 @@ public class SendCommands {
         while (status == 1 && count < 100) {
             Log.e("ADB", "Connecting...");
             try {
-                Thread.sleep(100);
+                Thread.sleep(80);
                 count ++;
             } catch (InterruptedException e) {
                 e.printStackTrace();

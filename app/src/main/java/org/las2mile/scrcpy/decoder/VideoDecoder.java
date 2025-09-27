@@ -117,7 +117,7 @@ public class VideoDecoder {
                         // just waiting to be configured, then decode and render
                         try {
 							// Log.v("wode","编码器sleep15");
-                            Thread.sleep(15);
+                            Thread.sleep(10);
                         } catch (InterruptedException ignore) {
                         }
                     }

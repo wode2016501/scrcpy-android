@@ -185,7 +185,7 @@ public class Scrcpy extends Service {
                                             while (!updateAvailable.get()) {
                                                 // Waiting for new surface
                                                 try {
-                                                    Thread.sleep(100);
+                                                    Thread.sleep(10);
                                                 } catch (InterruptedException e) {
                                                     e.printStackTrace();
                                                 }
@@ -220,7 +220,7 @@ public class Scrcpy extends Service {
                     return;
                 }
                 try {
-                    Thread.sleep(100);
+                    Thread.sleep(10);
                 } catch (InterruptedException ignore) {
                 }
 //                 Log.e("Scrcpy", e.getMessage());
